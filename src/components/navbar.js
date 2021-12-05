@@ -8,37 +8,37 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-8 py-5">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
-            <a className="text-white flex-shrink-0 font-poppins" href="/">
-              Circle
+            <a className="text-white flex-shrink-0 font-poppins text-gradient bg-gradient-to-r from-pink to-purple text-1xl" href="/">
+              .nomedia
             </a>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins text-1xl"
                   to="/about"
                 >
                   About
                 </Link>
-                <Link
+                {/* <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   to="/blog"
                 >
                   Blog
-                </Link>
+                </Link> */}
                 <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins text-1xl"
                   to="/pricing"
                 >
                   Pricing
                 </Link>
-                <Link
+                {/* <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   to="/careers"
                 >
                   Careers
-                </Link>
+                </Link> */}
                 <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins text-1xl"
                   to="/contact"
                 >
                   Contact
@@ -52,8 +52,8 @@ const Navbar = () => {
               className="text-gray-800 dark:text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
             >
               <svg
-                width="20"
-                height="20"
+                width="18"
+                height="18"
                 fill="white"
                 className="h-8 w-8"
                 viewBox="0 0 1792 1792"
@@ -70,25 +70,25 @@ const Navbar = () => {
           <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
               className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              href="/"
             >
               Home
             </a>
             <a
-              className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              href="/about"
             >
-              Gallery
+              About
             </a>
             <a
               className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              href="/pricing"
             >
-              Content
+              Pricing
             </a>
             <a
               className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              href="/contact"
             >
               Contact
             </a>

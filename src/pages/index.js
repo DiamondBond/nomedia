@@ -6,7 +6,6 @@ import Header from "../components/Home/header"
 import FeatureSection from "../components/Home/featureSection"
 import Testimonial from "../components/Home/testimonial"
 import Pricing from "../components/Home/pricing"
-import FeaturedBlog from "../components/FeaturedBlog"
 
 const IndexPage = () => (
   <div className="h-auto w-screen">
@@ -15,7 +14,6 @@ const IndexPage = () => (
       <FeatureSection></FeatureSection>
       <Testimonial></Testimonial>
       <Pricing></Pricing>
-      <FeaturedBlog></FeaturedBlog>
     </Layout>
   </div>
 )

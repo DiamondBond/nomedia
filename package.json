@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "nomedia",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A production house based in the heart of Ceylon.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Diamond Bond <diamondbond1@gmail.com>",
+  "homepage": "https://diamondbond.github.io/nomedia",
   "dependencies": {
     "gatsby": "^3.3.1",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
@@ -14,11 +15,16 @@
     "gatsby-plugin-sharp": "^3.2.1",
     "gatsby-source-filesystem": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "prop-types": "^15.7.2",
+    "qs": "^6.10.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
     "react-helmet": "^6.1.0",
+    "react-native-mail": "^6.1.1",
     "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.0.2",
     "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
@@ -35,6 +41,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "predeploy": "gatsby build",
+    "deploy": "gh-pages -d build",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",

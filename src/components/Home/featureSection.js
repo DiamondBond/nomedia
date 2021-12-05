@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto ">
-      <Fade bottom cascade>
+      {/* <Fade bottom cascade>
         <div className="w-full flex flex-row justify-between mt-10 xxs:flex-col xs:flex-col sm:flex-row">
           <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-lightblack to-lightblack hover:from-purple hover:to-pink transition duration-500 ease-in-out">
             <h1 className="text-white text-5xl">2.4M</h1>
@@ -23,39 +23,36 @@ const FeatureSection = () => {
             <h3 className="text-white">Days turn around</h3>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
       <Fade bottom cascade>
         <div className="mt-10 px-8">
-          <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-2xl sm:text-3xl lg:text-5xl xl:text-7xl">
-            From rough design files, to <br></br>
-            powerful products
+          <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-2xl sm:text-3xl lg:text-5xl xl:text-6xl">
+            Envision. Create. Record.
           </h1>
-          <h2 className="text-white text-sm mt-5 opacity-50">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever
+          <h2 className="text-white text-2xl text-sm mt-5 opacity-50">
+            Excellence with every shot.
             <br></br>
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
+            Devoted to bringing your vision to life with an eye for detail and a
+            passion for art.
           </h2>
         </div>
       </Fade>
-      <Fade bottom cascade>
+      {/* <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <h1 className="text-white text-4xl">Stats</h1>
             <div className="mt-5">
               <div>
                 <h2 className="text-white opacity-50 text-xl">Year Founded</h2>
-                <h1 className="text-white text-sm">2020</h1>
+                <h1 className="text-white text-sm">2021</h1>
               </div>
               <div className="mt-5">
                 <h2 className="text-white opacity-50 text-xl">Total Funding</h2>
-                <h1 className="text-white text-sm">$30M</h1>
+                <h1 className="text-white text-sm">0</h1>
               </div>
               <div className="mt-5">
                 <h2 className="text-white opacity-50 text-xl">Team Members</h2>
-                <h1 className="text-white text-sm">120</h1>
+                <h1 className="text-white text-sm">4</h1>
               </div>
             </div>
           </div>
@@ -76,8 +73,8 @@ const FeatureSection = () => {
             </p>
           </div>
         </div>
-      </Fade>
-      <Fade bottom cascade>
+      </Fade> */}
+      {/* <Fade bottom cascade>
         <div className="mt-10 px-8">
           <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl">
             Work more easily with everyone
@@ -126,7 +123,7 @@ const FeatureSection = () => {
             </p>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
     </div>
   )
 }
