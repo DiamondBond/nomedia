@@ -1,6 +1,6 @@
 
 # Nomedia
-![screenshot](https://raw.githubusercontent.com/DiamondBond/nomedia-site/main/src/images/site.png?token=ABGFQ3SAVABB56MPK7KVUOTBVNVKK)
+![screenshot](https://raw.githubusercontent.com/DiamondBond/nomedia/main/src/images/site.png)
 
 ## How To Use 
 
