@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
           <div className="w-1/4 overflow-hidden rounded-xl m-5 xxs:hidden sm:block">
             <img
-              alt="Call us!"
+              alt=""
               className="object-cover h-full w-full"
               src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
             ></img>
