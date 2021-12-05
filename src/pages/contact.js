@@ -8,9 +8,8 @@ const Contact = () => {
   return (
     <Layout>
       <Fade bottom cascade>
-        <center>
         <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
-          <div className="bg-lightblack p-10 rounded-xl w-3/4 m-5">
+          <div className="bg-lightblack p-10 rounded-xl m-5">
             <h2 className="text-xs opacity-50">Get in touch</h2>
             <h1 className="text-4xl font-bold font-poppins mt-2 xxs:text-lg sm:text-2xl lg:text-4xl text-gradient bg-gradient-to-r from-pink to-purple">
                 Let's work together
@@ -56,7 +55,6 @@ const Contact = () => {
             ></img>
           </div> */}
         </div>
-        </center>
       </Fade>
     </Layout>
   )
