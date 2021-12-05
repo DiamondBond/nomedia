@@ -55,7 +55,7 @@ const Navbar = () => {
                 width="18"
                 height="18"
                 fill="white"
-                className="h-8 w-8"
+                className="h-6 w-6"
                 viewBox="0 0 1792 1792"
                 xmlns="http://www.w3.org/2000/svg"
               >
