@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import contact from "../../images/contactus.jpg"
+import contact from "../images/contact.jpg"
 
 const Contact = () => {
   return (
