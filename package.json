@@ -4,7 +4,6 @@
   "description": "A production house based in the heart of Ceylon.",
   "version": "0.1.0",
   "author": "Diamond Bond <diamondbond1@gmail.com>",
-  "homepage": "https://diamondbond.github.io/nomedia",
   "dependencies": {
     "gatsby": "^3.3.1",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",

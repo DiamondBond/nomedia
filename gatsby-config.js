@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `.nomedia`,
     description: `No media, only art.`,
-    author: `@gatsbyjs`,
+    author: `@diamondbond`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
